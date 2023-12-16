@@ -2,7 +2,7 @@ function cerrarModal() {
     document.getElementById("myModal").style.display = "none";
 }
 
-const deadline = new Date("December 15, 2023 00:00:00").getTime();
+const deadline = new Date("December 24, 2023 00:00:00").getTime();
 
 const x = setInterval(function() {
     const now = new Date().getTime();
